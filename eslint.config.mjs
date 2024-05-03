@@ -11,5 +11,13 @@ export default [
     },
     files: ["src/**/*.js"],
     rules: {},
+    overrides: [
+      {
+        files: ["tests/**/*"],
+        env: {
+          jest: true,
+        },
+      },
+    ],
   },
 ];
