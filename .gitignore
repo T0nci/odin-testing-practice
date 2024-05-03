@@ -1,1 +1,3 @@
 node_modules/
+# For debugging purposes
+index.html
